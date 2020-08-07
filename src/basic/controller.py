@@ -1,4 +1,4 @@
-from module.calculations import sum, substraction, division, multiplication
+from calculations import sum, substraction, division, multiplication
 
 
 # import module.calculations

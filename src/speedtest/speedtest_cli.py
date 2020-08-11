@@ -31,7 +31,7 @@ def do_the_test():
 
 def save_to_database(results):
     date = time.strftime('%Y-%m-%d %H:%M:%S')
-    connection = Connection(server='192.168.1.189', database='internet_test', user='sa', password='40634630Leo*')
+    connection = Connection(server='', database='', user='', password='')
     query = ("INSERT INTO [dbo].speed_test([download], [upload], [ping], [date], [ip], [link]) "
              f"VALUES('{results['download']['bandwidth']}', "
              f"'{results['upload']['bandwidth']}', "

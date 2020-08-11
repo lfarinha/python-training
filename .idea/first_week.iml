@@ -7,8 +7,10 @@
       <sourceFolder url="file://$MODULE_DIR$/src/basic" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/data_project" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/covid_data" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/speedtest" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/speedtest/speedtest_cli" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

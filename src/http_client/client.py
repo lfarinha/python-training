@@ -51,6 +51,16 @@ def generic_method(*args):
 
 
 def generic_method_2(**kwargs):
+    for item in kwargs.keys():
+        print(item)
+
+    for item in kwargs.values():
+        print(item)
+
+
+def generic_method_3(*args, **kwargs):
+    for item in args:
+        print(item)
 
     for item in kwargs.keys():
         print(item)
@@ -64,4 +74,5 @@ if __name__ == '__main__':
     # http_client_get(user_id="3")
     # http_client_delete("3")
     # generic_method("leo", "1234", "leo@leo.com")
-    generic_method_2(name="leo", password="1234", email="leo@leo.com")
+    # generic_method_2(name="leo", password="1234", email="leo@leo.com")
+    generic_method_3("leo", "1234", "leo@leo.com", name="leo", password="1234", email="leo@leo.com")

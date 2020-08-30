@@ -4,13 +4,13 @@ import pyodbc
 def connect():
     driver = 'ODBC Driver 17 for SQL Server'
     server = '192.168.1.189'
-    database = 'flask'
+    database = 'flask_training'
     user = 'sa'
     password = '40634630Leo*'
     cnxn = pyodbc.connect(
         f"DRIVER={driver};SERVER={server};DATABASE={database};UID={user};PWD={password}"
     )
-    return cnxn.cursor()
+    return cnxn.connection()
 
 
 def select():

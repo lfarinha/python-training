@@ -1,7 +1,7 @@
-from subprocess import Popen, PIPE, STDOUT
-from pathlib import Path
 import json
 import time
+from pathlib import Path
+from subprocess import Popen, PIPE, STDOUT
 
 from connection import Connection
 

@@ -7,7 +7,7 @@ class Connection:
         try:
             connection = ("Driver={ODBC Driver 17 for SQL Server};"
                           f"Server={server};Database={database};UID={user};PWD={password}")
-            self.cursor = pyodbc.connect(connection).cursor()
+            self.cursor = pyodbc.connect(connection).connection()
         except Exception as e:
             print('oops en la conexion')
 
